@@ -1,0 +1,54 @@
+# Network Pruning
+
+I attempted to experiment with both weight pruning and filter pruning here. Since, sparse training is not supported really well by PyTorch, for now, I've only performed filter pruning.  
+
+For filter pruning, I calculate the L1 norm of the filters in all the convolutional layer and consequently remove the ones with the lowest norm. I am working on extending this idea to be more dynamic in
+nature such that it works for multiple convolutional layers as well as have options to remove bottom n% or p-percentile of filters in each layer. 
+
+
+Following are the file descriptions:   
+
+
+* **01_dnn_weight_pruning_iris.ipynb** [Work in progress]
+  *  This notebook is for weight pruning.  
+
+* **02_cnn_filter_pruning_mnist_part_1.ipynb**
+  *  This notebook contains am implementation of pruning on a single layer CNN.    
+
+* **03_cnn_filter_pruning_mnist_part_2.ipynb** 
+  * This notebook is an upgrade over the previous file where multiple layers and different scoring criteria are considered.
+
+
+
+
+Following are the details based on the notebook - "03_cnn_filter_pruning_mnist_part_2.ipynb":  
+
+To obtain a baseline, I trained a simple 2 conv-layer CNN model. Number of filters in the first conv layer is 8 and in the second conv layers, 4. A stride of 1 and filter size 3 is taken in both conv layers.
+I also used a maxpool layer with a filter-size = 2 and stride = 2. Number of epochs = 7 and learning-rate=0.001 is set to the same value while training the main and pruned model.
+
+The inference time mentioned below is based on a loop over entire test set with the values being appended to a list for the calculation of the classification report. 
+
+
+**Baseline model:**
+
+* Accuracy = 94%  
+* Number of parameters = 6130   
+* Inference time [CPU] = 3.77 s   
+
+
+
+**Pruned model:**
+
+* Accuracy = 94%  
+* Number of parameters = 3052  
+* Inference time [CPU] = 3.64 s  
+
+
+
+In the above experiments, I removed the n-non-contributing filter in each convolutional layer based on the least n L1-norm scores.  
+
+
+To improve the model: 
+* Experiment with different scoring metrics such as L2 norm. 
+* Prune n% or p-percentile of filters per convolutional layer based on a score. 
+* Prune the fully connected layer using weight-pruning methods as suggested in Optimal Brain Damage paper by LeCunn. 
