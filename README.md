@@ -31,13 +31,14 @@ This repo contains notebooks on training deep learning models for various tasks 
 3. Computer Vision
     * Classification
         * MNIST using custom CNN.
+        * Binary image classification using Hotdog-NotHotdog dataset.
     * Network Pruning
         * DNN weight pruning using Iris dataset.
         * CNN filter pruning using MNIST dataset.
     * Domain Adaptation
         * Unsupervised domain adaptation by backpropagation.
-    * Image Classification
-        * Binary image classification using CNN. 
+
+
 
 
 4. Tabular
