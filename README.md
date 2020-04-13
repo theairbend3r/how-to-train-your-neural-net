@@ -12,6 +12,7 @@ This repo contains notebooks on training deep learning models for various tasks 
     * Recurrent Neural Networks.
     * Tensors and Autograd.
     * Exploring dataloaders and loss functions.
+    * Sampling Samplers.
 
 
 2. NLP
