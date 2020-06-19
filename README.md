@@ -1,7 +1,12 @@
-# how-to-train-your-neural-net
+[![GitHub license](https://img.shields.io/github/license/theairbend3r/how-to-train-your-neural-net)](https://github.com/theairbend3r/how-to-train-your-neural-net/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/theairbend3r/how-to-train-your-neural-net)](https://github.com/theairbend3r/how-to-train-your-neural-net/stargazers) [![GitHub forks](https://img.shields.io/github/forks/theairbend3r/how-to-train-your-neural-net)](https://github.com/theairbend3r/how-to-train-your-neural-net/network) [![GitHub issues](https://img.shields.io/github/issues/theairbend3r/how-to-train-your-neural-net)](https://github.com/theairbend3r/how-to-train-your-neural-net/issues)
+
+![How to train your neural net poster](https://github.com/theairbend3r/how-to-train-your-neural-net/blob/master/assets/how-to-train-your-neural-net.jpg)
 
 
-This repo contains notebooks on training deep learning models for various tasks in the domains of Natural Language Processing, Computer Vision, Time Series Forecasting using CUDA enabled PyTorch 1.3. 
+# How To Train Your Neural Net 
+
+
+This repo contains notebooks on training deep learning models for various tasks in the domains of Natural Language Processing, Computer Vision, Time Series Forecasting using CUDA enabled PyTorch 1.0+. 
 
 
 ## Table of Contents: 
