@@ -12,12 +12,12 @@ This repo contains notebooks on training deep learning models for various tasks 
 
 - #### Basics
 
-  - Self-Attention in Computer Vision
-  - Convolutiona Neural Networks
-  - Data Loaders and Loss Functions
-  - Recurrent Neural Networks
-  - Samplers
-  - Tensors and Autograd
+  - Self-Attention in Computer Vision.
+  - Convolutional Neural Networks.
+  - Data Loaders and Loss Functions.
+  - Recurrent Neural Networks.
+  - PyTorch Samplers.
+  - Tensors and Autograd.
 
 * #### Computer Vision
   - Classification
