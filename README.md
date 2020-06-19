@@ -8,52 +8,55 @@ This repo contains notebooks on training deep learning models for various tasks 
 
 ## Table of Contents
 
-### PyTorch
+### Basics
 
-- #### Basics
+- Self-Attention in Computer Vision.
+- Convolutional Neural Networks.
+- Data Loaders and Loss Functions.
+- Recurrent Neural Networks.
+- PyTorch Samplers.
+- Tensors and Autograd.
 
-  - Self-Attention in Computer Vision.
-  - Convolutional Neural Networks.
-  - Data Loaders and Loss Functions.
-  - Recurrent Neural Networks.
-  - PyTorch Samplers.
-  - Tensors and Autograd.
+### Computer Vision
 
-* #### Computer Vision
-  - Classification
-    - MNIST using custom CNN.
-    - Binary image classification using Hotdog-NotHotdog dataset.
-  - Network Pruning
-    - CNN filter pruning using MNIST dataset. [NIPS 2015]
-  - Domain Adaptation
-    - Unsupervised domain adaptation by backpropagation. [ICML 2015]
-  - Attention
-    - Non-local Neural Networks. [CVPR 2018]
+- **Classification**
+  - MNIST using custom CNN.
+  - Binary image classification using Hotdog-NotHotdog dataset.
+- **Network Pruning**
+  - Learning both weights and connections for efficient neural networks. `[NIPS 2015]`
+- **Domain Adaptation**
+  - Unsupervised domain adaptation by backpropagation. `[ICML 2015]`
+- **Attention**
+  - Non-local Neural Networks. `[CVPR 2018]`
+- **Visual Explanation**
+  - Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization `[ICCV 2017]`
 
-- #### Natural Language Processing
+### Natural Language Processing
 
-  - Word Vectors [GLoVe].
-  - Understanding Padding and Packing for RNNs.
-  - Named Entity Recognition using RNNs (Conll database).
-  - Text Classification
-    - Binary text classification (Yelp Reviews).
-      - RNN
-      - CNN
-      - RNN+CNN
-    - Multi-class text classification (BBC news categorization).
-      - RNN
-      - CNN
-      - RNN+CNN
+- **Word Vectors [GLoVe].**
+- **Understanding Padding and Packing for RNNs.**
+- **Named Entity Recognition (Conll database)**
+  - RNN
+- **Text Classification**
+  - Binary text classification (Yelp Reviews).
+    - RNN
+    - CNN
+    - RNN+CNN
+  - Multi-class text classification (BBC news categorization).
+    - RNN
+    - CNN
+    - RNN+CNN
 
-- #### Tabular
-  - Classification
-    - Multiclass classification using DNN.
-    - Binary classification using DNN.
-  - Regression
-    - Multiple Regression using DNN.
-  - Time Series
-    - Univariate Forecasting - Single Step - RNN.
-    - Univariate Forecasting - Multi Step - RNN.
+### Tabular
+
+- **Classification**
+  - Multiclass classification using DNN.
+  - Binary classification using DNN.
+- **Regression**
+  - Multiple Regression using DNN.
+- **Time Series Forecasting**
+  - Univariate Forecasting - Single Step - RNN.
+  - Univariate Forecasting - Multi Step - RNN.
 
 ## Blog Post
 
