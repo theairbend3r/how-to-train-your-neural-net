@@ -24,11 +24,11 @@ This repo contains notebooks on training deep learning models for various tasks 
     - MNIST using custom CNN.
     - Binary image classification using Hotdog-NotHotdog dataset.
   - Network Pruning
-    - CNN filter pruning using MNIST dataset.
+    - CNN filter pruning using MNIST dataset. [NIPS 2015]
   - Domain Adaptation
-    - Unsupervised domain adaptation by backpropagation.
-  - Self-Attention
-    - MNIST classification using the self-attention mechanism.
+    - Unsupervised domain adaptation by backpropagation. [ICML 2015]
+  - Attention
+    - Non-local Neural Networks. [CVPR 2018]
 
 - #### Natural Language Processing
 
