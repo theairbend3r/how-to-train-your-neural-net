@@ -20,8 +20,8 @@ This repo contains notebooks on training deep learning models for various tasks 
 ### Computer Vision
 
 - **Classification**
-  - MNIST using custom CNN.
   - Binary image classification using Hotdog-NotHotdog dataset.
+  - Multiclass image classification using Rock-Paper-Scissor dataset.
 - **Network Pruning**
   - Learning both weights and connections for efficient neural networks. `[NIPS 2015]`
 - **Domain Adaptation**
