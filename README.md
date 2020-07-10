@@ -29,7 +29,9 @@ This repo contains notebooks on training deep learning models for various tasks 
 - **Attention**
   - Non-local Neural Networks. `[CVPR 2018]`
 - **Visual Explanation**
-  - Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization `[ICCV 2017]`
+  - Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization. `[ICCV 2017]`
+- **Image Segmentation**
+  - Fully Convolutional Network for Semantic Segmentation. `[CVPR 2015]`
 
 ### Natural Language Processing
 
