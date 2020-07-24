@@ -30,8 +30,10 @@ This repo contains notebooks on training deep learning models for various tasks 
   - Non-local Neural Networks. `[CVPR 2018]`
 - **Visual Explanation**
   - Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization. `[ICCV 2017]`
-- **Image Segmentation**
+- **Semantic Segmentation**
   - Fully Convolutional Network for Semantic Segmentation. `[CVPR 2015]`
+  - Learning deconvolution network for semantic segmentation. `[ICCV 2015]`
+  - U-Net: Convolutional Networks for Biomedical Image Segmentation `[MICCAI 2015]`
 
 ### Natural Language Processing
 
