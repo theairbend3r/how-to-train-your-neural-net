@@ -26,6 +26,7 @@ This repo contains notebooks on training deep learning models for various tasks 
   - Learning both weights and connections for efficient neural networks. `[NIPS 2015]`
 - **Domain Adaptation**
   - Unsupervised domain adaptation by backpropagation. `[ICML 2015]`
+  - Deep Domain Confusion: Maximizing for Domain Invariance. `[Arxiv 2014]`
 - **Attention**
   - Non-local Neural Networks. `[CVPR 2018]`
 - **Visual Explanation**
