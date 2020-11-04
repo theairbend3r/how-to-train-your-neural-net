@@ -27,8 +27,10 @@ This repo contains notebooks on training deep learning models for various tasks 
 - **Domain Adaptation**
   - Unsupervised domain adaptation by backpropagation. `[ICML 2015]`
   - Deep Domain Confusion: Maximizing for Domain Invariance. `[Arxiv 2014]`
-- **Attention**
+- **Visual Attention**
   - Non-local Neural Networks. `[CVPR 2018]`
+  - Squeeze and Excitation `[CVPR 2018]`
+  - CBAM: Convolutional Block Attention Module `[ECCV 2018]`
 - **Visual Explanation**
   - Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization. `[ICCV 2017]`
 - **Semantic Segmentation**
